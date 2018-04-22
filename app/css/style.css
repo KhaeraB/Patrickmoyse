@@ -69,7 +69,7 @@ nav .menu ul li,
     text-align: center;
 }
 nav .menu ul li a{
-    color:#F8ECC2;
+    color:#fff;
     display:block;
     text-decoration: none;
     padding:20px 30px;
@@ -82,14 +82,14 @@ nav .menu ul li a{
     width: 100%;
 }
 .catFilter .menuCat ul li a{
-    color:#F8ECC2;
+    color:#fff;
     display:block;
     text-decoration: none;
     padding:20px 30px;
 }
 
 .catFilter .titleCat h3 {
-    color: #F8ECC2;
+    color: #fff;
     display: block;
     padding: 20px 2px;
     font-weight: bold;
