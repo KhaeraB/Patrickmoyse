@@ -1,19 +1,11 @@
-$(document).ready(function(){
-    $('.burger').click(function(){
+$(document).ready(function() {
+    $(".burger").on("click", function() {
         $(this).toggleClass('is-active');
-        $('.mobile-menu').toggle();
+        $("nav ul").toggleClass("showing");
     });
 
-    $('.mobile-cat').hide();
-    $('.icon').click(function(x) {
-        var toggleClass = $(this).hasClass('active') ? true : false;
-        $('.icon').removeClass('active');
-        if(!toggleClass)
-            $(this).addClass('active');
-        var toggle = $(this).nextUntil('.icon.active');
-        toggle.slideToggle();
-        $('.mobile-cat').not(toggle).slideUp();
-        x.preventDefault();
-    })
-    }
-);
+    $("#catIcon span").on("click", function() {
+        $(this).toggleClass('active');
+        $(".sousCat ul").toggleClass("showingCat");
+    });
+    });
